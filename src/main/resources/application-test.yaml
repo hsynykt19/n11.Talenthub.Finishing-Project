@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: restaurant-management
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/restaurantManagement
+    password: '1234'
+  jpa:
+    hibernate:
+      ddl-auto: update
