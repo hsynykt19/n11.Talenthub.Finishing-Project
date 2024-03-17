@@ -13,9 +13,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>restaurantmanagement</name>
     <description>n11.Talenthub.Finishing-Project</description>
+
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -92,6 +94,11 @@
             <version>5.5.2</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-solrj</artifactId>
+            <version>8.11.1</version>
+        </dependency>
+        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>5.3.7.Final</version>
@@ -99,6 +106,7 @@
 
 
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
